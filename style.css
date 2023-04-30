@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    background: #000915;
+  }
+  
+  .top {
+    min-height: 1024px;
+    background-image: url(img/Rectangle\ 1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+  }
+  .topContent {
+    padding-top: 220px;
+  }
+  .topContentButton:hover {
+    transition: all 0.3s;
+    color: white;
+    background-color: #EB443F;
+  }
+  .topContentTitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+    padding-bottom: 32px;
+  }
+  .topContentText {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+  }
+  .topContentButton {
+    margin-top: 44px;
+    background: #9C0332;
+    border-radius: 30px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    width: 268px;
+    height: 46px;
+  }
+  .topContentButtonLink {
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+  }
+  .contentProduct {
+    flex-wrap: wrap;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    color: #FFFFFF;
+    min-height: 300px;
+    min-width: 300px;
+    align-items: flex-end;
+  }
+  .contentProduct:hover {
+    transition: all 0.2s;
+    border: 3px solid #44D2FF;
+    border-radius: 16px;
+  }
+  .contentProducts1 {
+    background-image: url(img/product1.png);
+    grid-column: span 4;
+    background-repeat: space;
+  }
+  .contentProducts2 {
+    background-image: url(img/product2.png);
+    grid-column: span 4;
+    background-repeat: space;
+  }
+  .contentProducts3 {
+    background-image: url(img/product3.png);
+    grid-column: span 4;
+    background-repeat: space;
+  }
+  
+  @media (max-width: 767px) {
+    .center {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .topContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .topContentTitle {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+    .topContentText {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 22px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .change{
+      color: #9C0332;
+    }
+  }/*# sourceMappingURL=style.css.map */
